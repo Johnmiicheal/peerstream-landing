@@ -13,13 +13,11 @@ export default function HomePage() {
           className="flex items-center text-xl font-semibold text-gray-900 dark:text-white gap-1"
         >
           <img
-            width="32"
-            height="32"
-            className="bg-black rounded-full"
-            src="https://img.icons8.com/wired/64/ffffff/voice-recognition-scan.png"
-            alt="voice-recognition-scan"
+            width="140"
+            height="140"
+            src="/peerlogo.png"
+            alt="peerlogo"
           />
-          ECHO
         </a>
         <div>
           <button
@@ -39,7 +37,7 @@ export default function HomePage() {
             }}
             onClick={() => router.push("https://live.peerstream.xyz")}
           >
-            Sign In
+            Demo
           </button>
           <div
             className="z-20 h-10 w-20  hover-div"
@@ -70,7 +68,7 @@ export default function HomePage() {
           ></Player>
         </div>
       </section>
-      <div className="fixed bottom-0 bg-black outline outline-black outline-2 text-gray-500 px-4 w-full">
+      <div className="fixed bottom-0 bg-black outline outline-black outline-2 text-center text-gray-500 px-4 w-full">
         &copy; 2023 PeerStream: A final year project of Johnmicheal Elijah-
         Covenant University
       </div>

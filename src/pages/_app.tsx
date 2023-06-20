@@ -19,9 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
     <Head>
       <title>
-        AUDIO TRANSCRIPTION
+        PeerStream - An ActivityPub-Federated Video Streaming Platform
       </title>
-      <link type="image/png" sizes="96x96" rel="icon" href="/icons8-audio-96.png"></link>
+      <link type="image/png" sizes="96x96" rel="icon" href="/peericon.png"></link>
     </Head>
     <Component {...pageProps} />
     
