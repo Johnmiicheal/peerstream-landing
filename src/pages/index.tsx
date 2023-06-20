@@ -56,7 +56,7 @@ export default function HomePage() {
             style={{ lineHeight: 1.4, color: "white" }}
           >
             The future of the internet is <br />
-            <h1 className="text-5xl p-4 text-center font-black from-orange-600 to-blue-400 bg-gradient-to-l bg-clip-text text-transparent">
+            <h1 className="text-5xl p-4 text-center font-black from-orange-700 to-blue-400 bg-gradient-to-r bg-clip-text text-transparent">
               Federated
             </h1>
           </h1>
